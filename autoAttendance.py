@@ -11,7 +11,7 @@ def browser_init():
   chrome_options.add_argument("--allow-running-insecure-content")
   chrome_options.add_argument("--allow-insecure-websocket-from-https-origin")
   chrome_options.add_argument("allow-outdated-plugins")
-  driver = webdriver.Chrome("/Users/fndm52/study_python/chromedriver", chrome_options=chrome_options)
+  driver = webdriver.Chrome("chromedriverの場所（パス）", chrome_options=chrome_options)
   return driver
 
 def login():
